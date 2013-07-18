@@ -14,7 +14,7 @@ public class TListCont1 {
 	    }
 	    public float consulta(int k) throws  IndexOutOfBoundsException{
 	    	if(k >= 0 && k <= ultimo)
-		        return x[k];
+		        return  x[k];
 		    else
 		    {
 		        throw new IndexOutOfBoundsException("Indice invalido!");
