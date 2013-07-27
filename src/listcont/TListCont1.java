@@ -7,10 +7,9 @@ public class TListCont1 {
 
 	        
 	        
-	    public void TListCont(int tam){
-	    	m = tam;
+	    public void TListCont(){
 		    ultimo = -1;
-		    x = new float[tam];
+		    x = new float[m];
 	    }
 	    public float consulta(int k) throws  IndexOutOfBoundsException{
 	    	if(k >= 0 && k <= ultimo)
