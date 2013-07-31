@@ -1,14 +1,15 @@
 package listcont;
 
 public class TListCont1 {
-	        int m;
-	        int ultimo;
-	        float[] x;
+	       private int m;
+	       private int ultimo;
+	       private float[] x;
 
 	        
 	        
-	    public void TListCont(){
-		    ultimo = -1;
+	    public TListCont1(int m){
+		    this.m = m;
+	    	ultimo = -1;
 		    x = new float[m];
 	    }
 	    public float consulta(int k) throws  IndexOutOfBoundsException{
